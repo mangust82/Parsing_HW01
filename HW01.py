@@ -16,11 +16,11 @@ url = "https://api.foursquare.com/v3/places/search"
 client_id = "__"
 client_secret = "__"
 
-# city = input('Enter the city: ')
-# category = input('Enter the catagory: ')
+city = input('Enter the city: ')
+category = input('Enter the catagory: ')
 
-city = 'москва'
-category = 'бассейн'
+# city = 'москва'
+# category = 'бассейн'
 
 params = {
         'client_id': client_id,
